@@ -11,17 +11,22 @@
   justify-content: center;
   width: 44px;
   height: 44px;
-  border-radius: 8px;
   background: var(--color-bg-secondary);
   color: var(--color-text-secondary);
   text-decoration: none;
   transition: all 0.2s ease;
+  transform: rotate(45deg);
+  border-radius: 4px;
+}
+
+.link svg {
+  transform: rotate(-45deg);
 }
 
 .link:hover {
   background: var(--color-accent-light);
   color: var(--color-accent);
-  transform: translateY(-2px);
+  transform: rotate(45deg) translateY(-2px);
 }
 
 .link:focus-visible {
