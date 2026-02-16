@@ -33,6 +33,10 @@ export default function HomePage() {
         </p>
 
         <p className={styles.bio}>
+          <a href="https://www.linkedin.com/in/zachary-jones-3b022b229/" target="_blank" rel="noopener noreferrer">Schedule a meeting</a> with me if you would like to chat.
+        </p>
+
+        <p className={styles.bio}>
           I am a member of the{' '}
           <a href="https://socialists.nyc" target="_blank" rel="noopener noreferrer">Democratic Socialists of America</a>, and{' '}
           <a href="https://act.dsausa.org/donate/membership/" target="_blank" rel="noopener noreferrer">urge you to join</a>.

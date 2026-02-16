@@ -22,6 +22,7 @@
 
   /* Selection */
   --color-selection: #7d9b76;
+  --color-selection-text: var(--color-bg-primary);
 
   /* Borders */
   --color-border: #d9d4cc;
@@ -58,6 +59,7 @@
 
   /* Light red selection for dark mode */
   --color-selection: #c9a0a0;
+  --color-selection-text: #ffffff;
 
   --color-border: #3d3a36;
   --color-border-strong: #4d4a44;
@@ -172,12 +174,12 @@ li {
 
 ::selection {
   background-color: var(--color-selection);
-  color: var(--color-bg-primary);
+  color: var(--color-selection-text);
 }
 
 ::-moz-selection {
   background-color: var(--color-selection);
-  color: var(--color-bg-primary);
+  color: var(--color-selection-text);
 }
 
 /* ================================

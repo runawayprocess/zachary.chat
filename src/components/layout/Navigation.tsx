@@ -8,7 +8,6 @@ import styles from './Navigation.module.css';
 const navItems = [
   { href: '/', label: 'Main' },
   { href: '/cv', label: 'CV' },
-  { href: '/schedule', label: 'Schedule a Meeting' },
 ];
 
 export function Navigation() {
