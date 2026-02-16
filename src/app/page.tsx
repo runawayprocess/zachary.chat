@@ -33,7 +33,7 @@ export default function HomePage() {
         </p>
 
         <p className={styles.bio}>
-          <a href="https://www.linkedin.com/in/zachary-jones-3b022b229/" target="_blank" rel="noopener noreferrer">Schedule a meeting</a> with me if you would like to chat.
+          <a href="https://calendar.app.google/szxPLDSHc1QLkzi48" target="_blank" rel="noopener noreferrer">Schedule a meeting</a> with me if you would like to chat.
         </p>
 
         <p className={styles.bio}>
