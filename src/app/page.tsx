@@ -11,7 +11,7 @@ export default function HomePage() {
 
         <p className={styles.bio}>
           I am currently a MA student at CUNY Hunter College, where I am studying mathematics and economics, with a thesis on the political economy of exposure to automation. As a research and strategy contractor for{' '}
-          <a href="https://www.themidasproject.com" target="_blank" rel="noopener noreferrer">the Midas Project</a>, I work on projects ensuring the frontier AI labs are held accountable. In the past, I have done economic and policy research for{' '}
+          <a href="https://www.themidasproject.com" target="_blank" rel="noopener noreferrer">the Midas Project</a>, I work on projects ensuring the frontier AI labs are held accountable and exposing their attempt to buy our elections. In the past, I have done economic and policy research for{' '}
           <a href="https://www.commongood.org" target="_blank" rel="noopener noreferrer">Common Good</a> and{' '}
           <a href="https://www.newconsensus.com" target="_blank" rel="noopener noreferrer">New Consensus</a>.
         </p>
@@ -19,8 +19,7 @@ export default function HomePage() {
         <p className={styles.bio}>
           As Co-Editor-in-Chief of{' '}
           <a href="https://onethousandmeans.com" target="_blank" rel="noopener noreferrer"><em>One Thousand Means</em></a>, I am building the ideological infrastructure for the Promethean left. My other writing can be found on{' '}
-          <a href="http://generalobligations.com" target="_blank" rel="noopener noreferrer">my blog</a>, and more substantive analysis on the economics of AI at{' '}
-          <a href="https://afterautomation.org" target="_blank" rel="noopener noreferrer"><em>After Automation</em></a>.
+          <a href="http://generalobligations.com" target="_blank" rel="noopener noreferrer">my blog</a>.
         </p>
 
         <p className={styles.bio}>

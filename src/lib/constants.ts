@@ -1,32 +1,27 @@
 export const socialLinks = [
   {
     name: 'Email',
-    href: 'mailto:zachary@example.com', // Update with your email
+    href: 'mailto:zacharyhunterjones@gmail.com',
     icon: 'email',
   },
   {
     name: 'Twitter',
-    href: 'https://twitter.com/zachary', // Update with your handle
+    href: 'https://twitter.com/zacharyjonesx',
     icon: 'twitter',
   },
   {
-    name: 'Bluesky',
-    href: 'https://bsky.app/profile/zachary.bsky.social', // Update with your handle
-    icon: 'bluesky',
-  },
-  {
     name: 'LinkedIn',
-    href: 'https://linkedin.com/in/zachary', // Update with your profile
+    href: 'https://www.linkedin.com/in/zachary-jones-3b022b229/',
     icon: 'linkedin',
   },
   {
     name: 'Substack',
-    href: 'https://zachary.substack.com', // Update with your Substack
+    href: 'https://generalobligations.com',
     icon: 'substack',
   },
   {
     name: 'GitHub',
-    href: 'https://github.com/zachary', // Update with your GitHub
+    href: 'https://github.com/runawayprocess',
     icon: 'github',
   },
 ] as const;
@@ -34,6 +29,5 @@ export const socialLinks = [
 export const siteConfig = {
   name: 'Zachary Jones',
   description: 'Personal website of Zachary Jones',
-  // Update with your Google Calendar Booking Page URL
-  calendarUrl: 'https://calendar.google.com/calendar/appointments/schedules/YOUR_SCHEDULE_ID',
+  calendarUrl: 'https://www.linkedin.com/in/zachary-jones-3b022b229/',
 };

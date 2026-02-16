@@ -4,7 +4,7 @@ import styles from './page.module.css';
 
 export const metadata: Metadata = {
   title: 'CV | Zachary Jones',
-  description: 'Curriculum Vitae of Zachary Jones - Portfolio, Coursework, and Career',
+  description: 'Curriculum Vitae of Zachary Jones - Career and Education',
 };
 
 export default function CVPage() {
@@ -12,69 +12,89 @@ export default function CVPage() {
     <div className={styles.cv}>
       <h1 className={styles.pageTitle}>Curriculum Vitae</h1>
 
-      <Accordion title="Portfolio" defaultOpen>
+      <Accordion title="Career" defaultOpen>
         <div className={styles.section}>
           <div className={styles.item}>
-            <h3>Project Name</h3>
-            <p className={styles.meta}>2024 - Present</p>
-            <p>
-              Description of the project and your role. What technologies did you use?
-              What was the impact or outcome?
-            </p>
-          </div>
-
-          <div className={styles.item}>
-            <h3>Another Project</h3>
-            <p className={styles.meta}>2023</p>
-            <p>
-              Brief description of this project. Include links if relevant.
-            </p>
-          </div>
-
-          {/* Add more portfolio items as needed */}
-        </div>
-      </Accordion>
-
-      <Accordion title="Coursework">
-        <div className={styles.section}>
-          <div className={styles.item}>
-            <h3>Course or Certification Name</h3>
-            <p className={styles.meta}>Institution, Year</p>
-            <p>Brief description or key learnings from this course.</p>
-          </div>
-
-          <div className={styles.item}>
-            <h3>Another Course</h3>
-            <p className={styles.meta}>Institution, Year</p>
-            <p>What did you learn? Any notable projects or achievements?</p>
-          </div>
-
-          {/* Add more coursework items as needed */}
-        </div>
-      </Accordion>
-
-      <Accordion title="Career">
-        <div className={styles.section}>
-          <div className={styles.item}>
-            <h3>Job Title</h3>
-            <p className={styles.meta}>Company Name | 2022 - Present</p>
+            <h3>Mentee</h3>
+            <p className={styles.meta}>Supervised Program for Alignment Research | 2026</p>
             <ul>
-              <li>Key achievement or responsibility</li>
-              <li>Another accomplishment with measurable impact</li>
-              <li>Skills developed or technologies used</li>
+              <li>Market-Based Compute Permits for Frontier AI Safety with Joel Christoph and Jonas Kgomo</li>
             </ul>
           </div>
 
           <div className={styles.item}>
-            <h3>Previous Role</h3>
-            <p className={styles.meta}>Previous Company | 2020 - 2022</p>
+            <h3>Research and Strategy Contractor</h3>
+            <p className={styles.meta}>
+              <a href="https://www.themidasproject.com" target="_blank" rel="noopener noreferrer">The Midas Project</a> | 2026
+            </p>
             <ul>
-              <li>Description of your work and impact</li>
-              <li>Notable projects or achievements</li>
+              <li>Andreessen Horowitz is Shaping AI Policy - while investing in a bleak vision of the future [Research and Writing Support]</li>
             </ul>
           </div>
 
-          {/* Add more career items as needed */}
+          <div className={styles.item}>
+            <h3>Fellow</h3>
+            <p className={styles.meta}>Alex Bores for Congress | 2026</p>
+          </div>
+
+          <div className={styles.item}>
+            <h3>Intern</h3>
+            <p className={styles.meta}>
+              <a href="https://www.commongood.org" target="_blank" rel="noopener noreferrer">Common Good</a> | 2025-2026
+            </p>
+          </div>
+
+          <div className={styles.item}>
+            <h3>Research Fellow</h3>
+            <p className={styles.meta}>
+              <a href="https://www.newconsensus.com" target="_blank" rel="noopener noreferrer">New Consensus</a> | 2025
+            </p>
+          </div>
+
+          <div className={styles.item}>
+            <h3>Quote-Driven Markets Intern</h3>
+            <p className={styles.meta}>
+              <a href="https://www.cmegroup.com" target="_blank" rel="noopener noreferrer">CME Group</a> | 2023
+            </p>
+          </div>
+        </div>
+      </Accordion>
+
+      <Accordion title="Education">
+        <div className={styles.section}>
+          <div className={styles.item}>
+            <h3>BlueDot AI Governance</h3>
+            <p className={styles.meta}>
+              <a href="https://aisafetyfundamentals.com/governance" target="_blank" rel="noopener noreferrer">AI Safety Fundamentals</a> | February 2026
+            </p>
+          </div>
+
+          <div className={styles.item}>
+            <h3>MA Economics</h3>
+            <p className={styles.meta}>CUNY Hunter College | 2024-2026</p>
+            <p>Thesis: Scarred by Trade, Scared by AI: Trade Displacement and Geographic Variation in AI Sentiment</p>
+          </div>
+
+          <div className={styles.item}>
+            <h3>BA Mathematics</h3>
+            <p className={styles.meta}>CUNY Hunter College | 2024-2026</p>
+          </div>
+
+          <div className={styles.item}>
+            <p className={styles.meta}>Attended Fordham University | 2021-2024</p>
+          </div>
+
+          <div className={styles.item}>
+            <h3>Coursework</h3>
+            <p><strong>Economics [Graduate]:</strong> Linear Econometrics, Non-Linear Econometrics, Macroeconomics, Microeconomics, Techniques for Economic Analysis, Data Analytics and Research Methods, Law and Economics, Political Economy, Financial Economics, International Finance</p>
+            <p><strong>Mathematics [Graduate]:</strong> Stochastic Methods in Finance, Advanced Concepts in Financial Markets, Advanced Probability Theory II, Mathematical Statistics</p>
+            <p><strong>Mathematics [Undergraduate]:</strong> Linear Algebra, Mathematical Analysis I, Numerical Methods I, Differential Equations, Vector Analysis, Financial Mathematics, Combinatorics, Probability, Statistics</p>
+          </div>
+
+          <div className={styles.item}>
+            <h3>Teaching Assistant</h3>
+            <p>Techniques of Economic Analysis, Microeconomics, Macroeconomics</p>
+          </div>
         </div>
       </Accordion>
     </div>
