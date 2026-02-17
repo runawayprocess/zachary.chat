@@ -18,7 +18,7 @@ export default function HomePage() {
 
         <p className={styles.bio}>
           As Co-Editor-in-Chief of{' '}
-          <a href="https://onethousandmeans.com" target="_blank" rel="noopener noreferrer"><em>One Thousand Means</em></a>, I am building the ideological infrastructure for the Promethean left. My other writing can be found on{' '}
+          <a href="https://onethousandmeans.com" target="_blank" rel="noopener noreferrer"><em>One Thousand Means</em></a>, I am building a platform for a more pragmatic, ambitious, and pro-growth left. My other writing can be found on{' '}
           <a href="http://generalobligations.com" target="_blank" rel="noopener noreferrer">my blog</a>.
         </p>
 
