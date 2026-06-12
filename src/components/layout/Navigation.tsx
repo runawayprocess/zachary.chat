@@ -41,7 +41,7 @@ export function Navigation() {
       <div className={styles.divider}>
         <span className={styles.dividerLine} />
         <span className={`${styles.fleuron} ${theme === 'dark' ? styles.rose : ''}`}>
-          {theme === 'dark' ? '\u{1F339}' : '❧'}
+          {theme === 'dark' ? '✿' : '❧'}
         </span>
         <span className={styles.dividerLine} />
       </div>
