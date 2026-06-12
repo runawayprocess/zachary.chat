@@ -27,9 +27,6 @@ export default function CVPage() {
             <p className={styles.meta}>
               <a href="https://www.themidasproject.com" target="_blank" rel="noopener noreferrer">The Midas Project</a> | 2026
             </p>
-            <ul>
-              <li>Andreessen Horowitz is Shaping AI Policy - while investing in a bleak vision of the future [Research and Writing Support]</li>
-            </ul>
           </div>
 
           <div className={styles.item}>
