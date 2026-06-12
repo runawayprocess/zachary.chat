@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useTheme } from '@/providers/ThemeProvider';
 import { ThemeToggle } from './ThemeToggle';
 import styles from './Navigation.module.css';
 
@@ -12,6 +13,7 @@ const navItems = [
 
 export function Navigation() {
   const pathname = usePathname();
+  const { theme } = useTheme();
 
   const isActive = (href: string) => {
     if (href === '/') {
@@ -38,7 +40,9 @@ export function Navigation() {
       </div>
       <div className={styles.divider}>
         <span className={styles.dividerLine} />
-        <span className={styles.fleuron}>&#10087;</span>
+        <span className={`${styles.fleuron} ${theme === 'dark' ? styles.rose : ''}`}>
+          {theme === 'dark' ? '\u{1F339}' : '❧'}
+        </span>
         <span className={styles.dividerLine} />
       </div>
     </nav>

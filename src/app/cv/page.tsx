@@ -72,7 +72,7 @@ export default function CVPage() {
           <div className={styles.item}>
             <h3>MA Economics</h3>
             <p className={styles.meta}>CUNY Hunter College | 2024-2026</p>
-            <p>Thesis: Scarred by Trade, Scared by AI: Trade Displacement and Geographic Variation in AI Sentiment</p>
+            <p>Thesis: Persistent Political and Labor Market Effects of Variation in the Organizational Survival of the Knights of Labor</p>
           </div>
 
           <div className={styles.item}>

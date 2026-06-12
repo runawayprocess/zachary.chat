@@ -34,6 +34,10 @@
   line-height: 1;
 }
 
+.rose {
+  color: #d4504e;
+}
+
 .tabs {
   display: flex;
   gap: 0;
