@@ -15,14 +15,6 @@ export default function CVPage() {
       <Accordion title="Career" defaultOpen>
         <div className={styles.section}>
           <div className={styles.item}>
-            <h3>Mentee</h3>
-            <p className={styles.meta}>Supervised Program for Alignment Research | 2026</p>
-            <ul>
-              <li>Market-Based Compute Permits for Frontier AI Safety with Joel Christoph and Jonas Kgomo</li>
-            </ul>
-          </div>
-
-          <div className={styles.item}>
             <h3>Research and Strategy Contractor</h3>
             <p className={styles.meta}>
               <a href="https://www.themidasproject.com" target="_blank" rel="noopener noreferrer">The Midas Project</a> | 2026
